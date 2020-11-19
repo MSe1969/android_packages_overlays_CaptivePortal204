@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Configuration hook for the URL returned by ConnectivityManager#getCaptivePortalServerUrl.
+         If empty, the returned value is controlled by Settings.Global.CAPTIVE_PORTAL_HTTP_URL,
+         and if that value is empty, the framework will use a hard-coded default.
+         This is *NOT* a URL that will always be used by the system network validation to detect
+         captive portals: NetworkMonitor may use different strategies and will not necessarily use
+         this URL. NetworkMonitor behaviour should be configured with NetworkStack resource overlays
+         instead. -->
+    <!--suppress CheckTagEmptyBody -->
+    <string translatable="false" name="config_networkCaptivePortalServerUrl">http://connectivitycheck.grapheneos.org/generate_204</string>
+
+</resources>
