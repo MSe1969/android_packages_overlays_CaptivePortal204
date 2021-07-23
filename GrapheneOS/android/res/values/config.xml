@@ -9,6 +9,6 @@
          this URL. NetworkMonitor behaviour should be configured with NetworkStack resource overlays
          instead. -->
     <!--suppress CheckTagEmptyBody -->
-    <string translatable="false" name="config_networkCaptivePortalServerUrl">http://connectivitycheck.grapheneos.org/generate_204</string>
+    <string translatable="false" name="config_networkCaptivePortalServerUrl">http://connectivitycheck.grapheneos.network/generate_204</string>
 
 </resources>
